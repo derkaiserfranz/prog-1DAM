@@ -4,9 +4,9 @@ public class Principal {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Saludo hola = new Saludo();
+		Saludo hola = new Saludo ();
 		
-		hola.mostrarMensaje();
+		hola.mostrarMensaje ();
 
 	}
 

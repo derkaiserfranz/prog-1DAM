@@ -1,16 +1,17 @@
 
 public class Saludo {
 
-	// Atributos
+	// Atributos de la clase Saludo
 	
-	String hola = "Hola Mundo";
+	String mensaje;
 	
-	// Métodos
+	// Métodos (se definen con verbos de acción)
 	
-	  //mostrarMensaje();
-	
-	public Saludo (String hola) {
-		this.hola = hola;
+	public void mostrarMensaje () {                // Intentaremos usar void lo menos posible
+		System.out.println("Hola mundo");
 	}
+	
+	
+	
 	
 }
