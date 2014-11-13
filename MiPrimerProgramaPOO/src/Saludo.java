@@ -11,7 +11,16 @@ public class Saludo {
 		System.out.println("Hola mundo");
 	}
 	
+	public void mostrarMensajev2 (String mensajito) {
+		System.out.println(mensajito);
+	}
 	
+	// Un método de ejemplo para sumar dos números
 	
+	public int sumar (int a, int b) {
+		int resultado = 0;
+		resultado = a + b;
+		return resultado;
+	}
 	
 }
